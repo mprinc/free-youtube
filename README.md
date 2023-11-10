@@ -151,3 +151,17 @@ authors or copyright holders be liable for any claim, damages or other
 liability, whether in an action of contract, tort or otherwise, arising from,
 out of or in connection with the software or the use or other dealings in the
 software.
+
+## Updated
+
+for a safety reasons I personally downloaded libraries:
++ [`jquery.min.js`](https://jquery.com/download/)
++ [`jquery-ui.min.js`](https://jqueryui.com/download/all/)
++ [`jquery.nice-select.min.js`](https://jqueryniceselect.hernansartorio.com/)
+
++ Renamed in [popup.html](./src/chrome/html/popup.html):
+  + `../js/libraries/jquery-3.5.1.min.js` => `../js/libraries/jquery-3.7.1.min.js`
+  + `../js/libraries/jquery.nice-select.js` => `../js/libraries/jquery.nice-select.min.js`
+  + `../css/libraries/jquery-ui.css` => `../css/libraries/jquery-ui.min.css`
+
+Removed jquery-ui and jquery.nice-select
